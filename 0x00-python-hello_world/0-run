@@ -1,2 +1,2 @@
 #!/bin/sh
-. /$PYFILE
+python3 . /$PYFILE
