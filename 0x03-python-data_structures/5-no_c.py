@@ -2,11 +2,10 @@
 
 
 def no_c(my_string):
-    if my_string:
-        my_string = list(my_string)
-        n = len(my_string)
-        for index in range(n):
-            if my_string[index] == "c" or my_string[index] == "C":
-                my_string[index] = " "
-        new_string = "".join(my_string)
-        return new_string
+    new_string = my_string[:]
+    new_string = list(new_string)
+    for index in range(len(new_string)):
+        if new_string[index] == "c" or new_string[index] == "C":
+            new_string[index] = " "
+    new_string = "".join(new_string)
+    return new_string
