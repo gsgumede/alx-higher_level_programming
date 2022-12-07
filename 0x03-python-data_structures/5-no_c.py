@@ -8,6 +8,3 @@ def no_c(my_string):
             if index != "c" and index != "C":
                 new_string += index
         return new_string
-
-            
-
