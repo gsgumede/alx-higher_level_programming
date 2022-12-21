@@ -8,4 +8,4 @@ def safe_print_division(a, b):
         resul = None
     finally:
         print("Inside Result: {}".format(resul))
-        return (resul)
+    return (resul)
