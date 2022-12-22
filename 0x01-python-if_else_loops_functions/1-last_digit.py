@@ -6,6 +6,7 @@ temp_number = number
 if number < 0:
     temp_number *= -1
     last_digit = temp_number % 10
+    last_digit *= -1
 else:
     last_digit = temp_number % 10
 if last_digit < 6 and last_digit > 0:
